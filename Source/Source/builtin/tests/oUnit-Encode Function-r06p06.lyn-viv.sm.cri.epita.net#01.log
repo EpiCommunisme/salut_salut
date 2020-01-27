@@ -1,8 +1,0 @@
-2019-12-17T19:39:40+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Start test Encode Function:0:(Bashar, 7) -> 2294023860466.
-2019-12-17T19:39:40+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 E: Test Encode Function:0:(Bashar, 7) -> 2294023860466 has failed.
-2019-12-17T19:39:40+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 E: Encode Function
-2019-12-17T19:39:40+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 E: expected: 2294023860466 but got: 0 in test Encode Function:0:(Bashar, 7) -> 2294023860466.
-2019-12-17T19:39:40+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 E: Raised at file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 8-27
-2019-12-17T19:39:40+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2019-12-17T19:39:40+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 E: 
-2019-12-17T19:39:40+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: End test Encode Function:0:(Bashar, 7) -> 2294023860466.

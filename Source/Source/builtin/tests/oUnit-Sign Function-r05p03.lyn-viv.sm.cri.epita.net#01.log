@@ -1,8 +1,0 @@
-2019-12-04T09:39:24+00:00 r05p03.lyn-viv.sm.cri.epita.net#01 I: Start test Sign Function:0:(1, 1).
-2019-12-04T09:39:24+00:00 r05p03.lyn-viv.sm.cri.epita.net#01 E: Test Sign Function:0:(1, 1) has failed.
-2019-12-04T09:39:24+00:00 r05p03.lyn-viv.sm.cri.epita.net#01 E: Sign Function
-2019-12-04T09:39:24+00:00 r05p03.lyn-viv.sm.cri.epita.net#01 E: expected: 1 but got: 0 in test Sign Function:0:(1, 1).
-2019-12-04T09:39:24+00:00 r05p03.lyn-viv.sm.cri.epita.net#01 E: Raised at file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 8-27
-2019-12-04T09:39:24+00:00 r05p03.lyn-viv.sm.cri.epita.net#01 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2019-12-04T09:39:24+00:00 r05p03.lyn-viv.sm.cri.epita.net#01 E: 
-2019-12-04T09:39:24+00:00 r05p03.lyn-viv.sm.cri.epita.net#01 I: End test Sign Function:0:(1, 1).
