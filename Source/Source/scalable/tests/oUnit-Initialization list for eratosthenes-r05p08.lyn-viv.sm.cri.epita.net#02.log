@@ -1,0 +1,8 @@
+2019-12-18T11:21:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#02 I: Start test Initialization list for eratosthenes:1:3 -> [0; 0].
+2019-12-18T11:21:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#02 E: Test Initialization list for eratosthenes:1:3 -> [0; 0] has failed.
+2019-12-18T11:21:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#02 E: Initialization list for eratosthenes
+2019-12-18T11:21:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#02 E: expected: [0; 0] but got: [] in test Initialization list for eratosthenes:1:3 -> [0; 0].
+2019-12-18T11:21:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#02 E: Raised at file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 8-27
+2019-12-18T11:21:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#02 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2019-12-18T11:21:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#02 E: 
+2019-12-18T11:21:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#02 I: End test Initialization list for eratosthenes:1:3 -> [0; 0].

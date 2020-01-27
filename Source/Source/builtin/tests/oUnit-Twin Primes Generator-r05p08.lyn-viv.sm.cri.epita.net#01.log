@@ -1,0 +1,3 @@
+2019-12-18T11:20:19+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: Start test Twin Primes Generator:0:20 -> [(2, 3); (3, 5); (5, 7); (11, 13); (17, 19)]).
+2019-12-18T11:20:19+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: Test Twin Primes Generator:0:20 -> [(2, 3); (3, 5); (5, 7); (11, 13); (17, 19)]) is successful.
+2019-12-18T11:20:19+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: End test Twin Primes Generator:0:20 -> [(2, 3); (3, 5); (5, 7); (11, 13); (17, 19)]).

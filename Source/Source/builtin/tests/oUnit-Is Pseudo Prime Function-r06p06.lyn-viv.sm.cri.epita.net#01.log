@@ -1,0 +1,12 @@
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Start test Is Pseudo Prime Function:0:(2, [2; 4; 8; 12]) -> true).
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Test Is Pseudo Prime Function:0:(2, [2; 4; 8; 12]) -> true) is successful.
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: End test Is Pseudo Prime Function:0:(2, [2; 4; 8; 12]) -> true).
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Start test Is Pseudo Prime Function:2:(23, [2; 9; 15; 18]) -> true).
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Test Is Pseudo Prime Function:2:(23, [2; 9; 15; 18]) -> true) is successful.
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: End test Is Pseudo Prime Function:2:(23, [2; 9; 15; 18]) -> true).
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Start test Is Pseudo Prime Function:4:(4, [2; 9; 15; 18]) -> false).
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Test Is Pseudo Prime Function:4:(4, [2; 9; 15; 18]) -> false) is successful.
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: End test Is Pseudo Prime Function:4:(4, [2; 9; 15; 18]) -> false).
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Start test Is Pseudo Prime Function:6:(15, [2; 9; 15; 18]) -> false).
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: Test Is Pseudo Prime Function:6:(15, [2; 9; 15; 18]) -> false) is successful.
+2019-12-17T19:39:39+00:00 r06p06.lyn-viv.sm.cri.epita.net#01 I: End test Is Pseudo Prime Function:6:(15, [2; 9; 15; 18]) -> false).
