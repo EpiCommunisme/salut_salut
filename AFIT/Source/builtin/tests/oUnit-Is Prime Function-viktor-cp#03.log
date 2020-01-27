@@ -1,0 +1,6 @@
+2020-01-26T15:47:57+00:00 viktor-cp#03 I: Start test Is Prime Function:2:(5 -> true).
+2020-01-26T15:47:57+00:00 viktor-cp#03 I: Test Is Prime Function:2:(5 -> true) is successful.
+2020-01-26T15:47:57+00:00 viktor-cp#03 I: End test Is Prime Function:2:(5 -> true).
+2020-01-26T15:47:57+00:00 viktor-cp#03 I: Start test Is Prime Function:7:(6 -> false).
+2020-01-26T15:47:57+00:00 viktor-cp#03 I: Test Is Prime Function:7:(6 -> false) is successful.
+2020-01-26T15:47:57+00:00 viktor-cp#03 I: End test Is Prime Function:7:(6 -> false).

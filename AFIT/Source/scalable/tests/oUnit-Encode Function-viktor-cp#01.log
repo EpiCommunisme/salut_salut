@@ -1,0 +1,8 @@
+2020-01-26T15:50:08+00:00 viktor-cp#01 I: Start test Encode Function:0:(Bashar, 7) -> 0.
+2020-01-26T15:50:08+00:00 viktor-cp#01 E: Test Encode Function:0:(Bashar, 7) -> 0 has failed.
+2020-01-26T15:50:08+00:00 viktor-cp#01 E: Encode Function
+2020-01-26T15:50:08+00:00 viktor-cp#01 E: expected: 0 but got: 0 in test Encode Function:0:(Bashar, 7) -> 0.
+2020-01-26T15:50:08+00:00 viktor-cp#01 E: Raised at file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 8-27
+2020-01-26T15:50:08+00:00 viktor-cp#01 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-01-26T15:50:08+00:00 viktor-cp#01 E: 
+2020-01-26T15:50:08+00:00 viktor-cp#01 I: End test Encode Function:0:(Bashar, 7) -> 0.

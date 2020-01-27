@@ -1,0 +1,9 @@
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: Start test Quot Function:0:((10, 3), 3).
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: Test Quot Function:0:((10, 3), 3) is successful.
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: End test Quot Function:0:((10, 3), 3).
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: Start test Quot Function:2:((10, 2), 5).
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: Test Quot Function:2:((10, 2), 5) is successful.
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: End test Quot Function:2:((10, 2), 5).
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: Start test Quot Function:3:((-10, 2), -5).
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: Test Quot Function:3:((-10, 2), -5) is successful.
+2019-12-18T11:20:16+00:00 r05p08.lyn-viv.sm.cri.epita.net#01 I: End test Quot Function:3:((-10, 2), -5).
