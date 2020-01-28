@@ -1,3 +1,0 @@
-2020-01-26T15:49:04+00:00 viktor-cp#04 I: Start test Encrypt Cesar Test:3:(-1, [120; 121; 122], 255) -> [119; 120; 121].
-2020-01-26T15:49:04+00:00 viktor-cp#04 I: Test Encrypt Cesar Test:3:(-1, [120; 121; 122], 255) -> [119; 120; 121] is successful.
-2020-01-26T15:49:04+00:00 viktor-cp#04 I: End test Encrypt Cesar Test:3:(-1, [120; 121; 122], 255) -> [119; 120; 121].

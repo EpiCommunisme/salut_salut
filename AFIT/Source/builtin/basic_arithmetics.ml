@@ -1,7 +1,7 @@
 (** Basic arithmetics with built-in integers *)
 
 open Builtin
- 
+
 (* Greater common divisor and smaller common multiple
    implemetations.
 *)

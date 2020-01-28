@@ -70,31 +70,33 @@ let decrypt_rsa m (n , d) = mod_power m d n;;
 (** Generate ElGamal public data. Generates a couple (g, p)
     where p is prime and g having high enough order modulo p.
     @param p is prime having form 2*q + 1 for prime q.
- *)
-let rec public_data_g p =
-  let g = (Random.int (p-1)) in
-  if (mod_power g 2 p) = 1 || g < 3
-  then public_data_g p
-  else (g,p);;
-                                    
+*)
+
+let rec find n x = match n with
+ |n when (modulo n x) = 0 -> x
+ |n -> find n (x-1);;
+
+let rec public_data_g p = (find (p-1) (p-2), p);;
 
 (** Generate ElGamal public data.
     @param pub_data a tuple (g, p) of public data for ElGamal cryptosystem.
  *)
-let generate_keys_g (g, p) = let a = (p-1) in let b = Random.int a in ((mod_power g b p),b);;
+let generate_keys_g (g, p) = let a = (p-2)+1 in let b = Random.int a in ((mod_power g b p),b);;
 
 (** ElGamal encryption process.
     @param msg message to be encrypted.
     @param pub_data a tuple (g, p) of ElGamal public data.
     @param kA ElGamal public key.
  *)
-let encrypt_g msg (g, p) kA = let a = Random.int (p-1) in
-                              let msg1 = mod_power g a p and msg2 = modulo ((mod_power kA a p) + msg) p
-                              in (msg1,msg2);;
+let encrypt_g msg (g, p) kA = let a = (p-2)+1 in
+                              let b = Random.int a in
+                              let c = mod_power g b p and d = modulo ((mod_power kA b p) + msg) p
+                              in (c,d);;
 
 (** ElGamal decryption process.
     @param msg a tuple (msgA, msgB) forming an encrypted ElGamal message.
     @param a private key
     @param pub_data a tuple (g, p) of public data for ElGamal cryptosystem.
- *)
+*)
+
 let decrypt_g (msgA, msgB) a (g, p) = (modulo ((prime_mod_power msgA (p-1-a) p) * msgB) p);;

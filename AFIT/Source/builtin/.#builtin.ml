@@ -1,1 +1,0 @@
-viktor@viktor-cp.1926:1578170806

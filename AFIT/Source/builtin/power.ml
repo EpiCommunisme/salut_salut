@@ -2,7 +2,7 @@
 
 open Builtin
 open Basic_arithmetics
- 
+
 (* Naive and fast exponentiation ; already implemented in-class.
  *)
 
