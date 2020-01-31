@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\johan\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\johan\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\johan\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WonderlandTycoon.-1679660233.00" t="ExcludeRecursive" />
+    <e p="C:\Users\johan\Documents\csharp-tp6-johanna.levasseur\WonderlandTycoon" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WonderlandTycoon" t="IncludeRecursive">
+        <e p="Attraction.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bot.cs" t="Include" />
+        <e p="Building.cs" t="Include" />
+        <e p="Content" t="Include">
+          <e p="maps" t="Include">
+            <e p="agave_plantation.map" t="Include" />
+          </e>
+          <e p="viewer" t="Include">
+            <e p="attraction0.png" t="Include" />
+            <e p="attraction1.png" t="Include" />
+            <e p="attraction2.png" t="Include" />
+            <e p="attraction3.png" t="Include" />
+            <e p="house0.png" t="Include" />
+            <e p="house1.png" t="Include" />
+            <e p="house2.png" t="Include" />
+            <e p="house3.png" t="Include" />
+            <e p="land.png" t="Include" />
+            <e p="mountain.png" t="Include" />
+            <e p="sea.png" t="Include" />
+            <e p="shop0.png" t="Include" />
+            <e p="shop1.png" t="Include" />
+            <e p="shop2.png" t="Include" />
+            <e p="shop3.png" t="Include" />
+            <e p="viewer.py" t="Include" />
+          </e>
+        </e>
+        <e p="Game.cs" t="Include" />
+        <e p="House.cs" t="Include" />
+        <e p="Map.cs" t="Include" />
+        <e p="MyBot.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="WonderlandTycoon.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Shop.cs" t="Include" />
+        <e p="Tile.cs" t="Include" />
+        <e p="TycoonIO.cs" t="Include" />
+        <e p="WonderlandTycoon.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WonderlandTycoon.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
