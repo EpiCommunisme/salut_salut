@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\johan\.Rider2019.2\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\johan\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\johan\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WonderlandTycoon.-1679660233.00" t="ExcludeRecursive" />
-    <e p="C:\Users\johan\Documents\csharp-tp6-johanna.levasseur\WonderlandTycoon" t="IncludeFlat">
+    <e p="C:\Users\johan\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WonderlandTycoon.-1562496022.00" t="ExcludeRecursive" />
+    <e p="C:\Users\johan\Documents\salut_salut\TP6\WonderlandTycoon" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="WonderlandTycoon" t="IncludeRecursive">
         <e p="Attraction.cs" t="Include" />

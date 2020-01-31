@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johan\\Documents\\csharp-tp6-johanna.levasseur\\WonderlandTycoon\\WonderlandTycoon\\WonderlandTycoon.csproj": {}
+    "C:\\Users\\johan\\Documents\\salut_salut\\TP6\\WonderlandTycoon\\WonderlandTycoon\\WonderlandTycoon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johan\\Documents\\csharp-tp6-johanna.levasseur\\WonderlandTycoon\\WonderlandTycoon\\WonderlandTycoon.csproj": {
+    "C:\\Users\\johan\\Documents\\salut_salut\\TP6\\WonderlandTycoon\\WonderlandTycoon\\WonderlandTycoon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johan\\Documents\\csharp-tp6-johanna.levasseur\\WonderlandTycoon\\WonderlandTycoon\\WonderlandTycoon.csproj",
+        "projectUniqueName": "C:\\Users\\johan\\Documents\\salut_salut\\TP6\\WonderlandTycoon\\WonderlandTycoon\\WonderlandTycoon.csproj",
         "projectName": "WonderlandTycoon",
-        "projectPath": "C:\\Users\\johan\\Documents\\csharp-tp6-johanna.levasseur\\WonderlandTycoon\\WonderlandTycoon\\WonderlandTycoon.csproj",
+        "projectPath": "C:\\Users\\johan\\Documents\\salut_salut\\TP6\\WonderlandTycoon\\WonderlandTycoon\\WonderlandTycoon.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johan\\Documents\\csharp-tp6-johanna.levasseur\\WonderlandTycoon\\WonderlandTycoon\\obj\\",
+        "outputPath": "C:\\Users\\johan\\Documents\\salut_salut\\TP6\\WonderlandTycoon\\WonderlandTycoon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
