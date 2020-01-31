@@ -63,7 +63,9 @@ namespace WonderlandTycoon
 
         public void Update()
         {
-            throw new NotImplementedException("Please fix me");
+            score = score + Map.GetIncome(Map.GetPopulation());
+            money = money + Map.GetIncome(Map.GetPopulation());
+            TycoonIO.GameUpdate();
         }
 
         public bool Build(int i, int j, Building.BuildingType type)
