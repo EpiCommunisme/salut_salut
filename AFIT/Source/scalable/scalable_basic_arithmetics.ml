@@ -6,33 +6,14 @@ open Scalable
     @param bA non-zero bitarray.
     @param bB non-zero bitarray.
 *)
-
-let rec power a = function
-0 -> 1
-  | i -> a*(power a (i-1));;
-
-let to_int bA =
-  let (sign, rest) = match bA with
-      [] -> (0,[])
-    | 0::s -> (1,s)
-    | _::s -> ((-1),s) in
-  let rec to_int_r array deg = match array with
-      [] -> 0
-    | e::s -> e*(power 2 deg) + (to_int_r s (deg+1))
-  in sign*(to_int_r rest 0);;
-
-let rec gcd a b = match (a,b) with
-    (a,b) when a < 0 -> gcd (-a) b
-  | (a,b) when b < 0 -> gcd a (-b)
-  | _ -> let rec gdc_rec a b = match (div a b) with
-      (a,0) -> gcd_rec b d
-	 in gcd_rec a b;;
-
-let gcd_b bA bB = []
-  bA = to_int bA
-  bB = to_int bB
-  x = gcd bA bB
-  
+let rec gcd_b bA bB = if bA=[] || bB= [] then invalid_arg "gcd:inputs must not be zero"
+  else if (>>) bA bB then let bA= abs_b bA and bB = abs_b bB
+                          in let c= mod_b bA bB
+                             in if c=[] then bB else gcd_b bB c
+  else let bB = abs_b bA and bA = abs_b bB
+       in let c = mod_b bA bB
+          in if c = [] then bB
+            else gcd_b bB c;;
 
 (** Extended euclidean division of two integers NOT OCAML DEFAULT.
     Given non-zero entries a b computes triple (u, v, d) such that
@@ -40,4 +21,10 @@ let gcd_b bA bB = []
     @param bA non-zero bitarray.
     @param bB non-zero bitarray.
 *)
-let bezout_b bA bB = ([], [], [])
+
+let rec bezout_b bA bB = let r = mod_b bA bB
+                         in let g = gcd_b bA bB
+                            in let d = quot_b bA bB in
+                               if r =[]
+                               then ([],[0;1],g)
+                               else  let (u,v,g) = bezout_b bB r in (v,diff_b u (mult_b v d),g);;

@@ -1,4 +1,4 @@
-(** A naive implementation of big integers
+    (** A naive implementation of big integers
 
 This module aims at creating a set of big integers naively. Such data
 types will be subsequently called bitarrays. A bitarray is a list of
@@ -215,60 +215,152 @@ let abs_b bA =
 (** Quotient of integers smaller than 4 by 2.
     @param a Built-in integer smaller than 4.
 *)
-let _quot_t a = 0
+let _quot_t a = if a > 3 then invalid_arg "Error" else a/2;;
 
 (** Modulo of integer smaller than 4 by 2.
     @param a Built-in integer smaller than 4.
 *)
-let _mod_t a = 0
+let _mod_t a = if a > 3 then invalid_arg "Error" else a mod 2;;
 
 (** Division of integer smaller than 4 by 2.
     @param a Built-in integer smaller than 4.
 *)
-let _div_t a = (0, 0)
+let _div_t a = (_quot_t a, _mod_t a);;
 
 (** Addition of two naturals.
     @param nA Natural.
     @param nB Natural.
 *)
-let add_n nA nB = []
+
+let  add_n nA nB =
+    let rec res nA nB l c = match (nA , nB) with
+        ([],[]) ->if c=0 then  l else c::l
+      | ([],e::s) ->if e+c >1 then ((e+c)mod 2)::res nA s l 1 else  ((e+c)mod 2)::res nA s l 0
+      | (e::s,[]) ->if e+c >1 then ((e+c)mod 2)::res s nB l 1 else  ((e+c)mod 2)::res s nB l 0
+      | (e::s,e2::s2) -> if (e+e2+c)>1 then ((e+e2+c)mod 2)::res s s2 l 1 else  ((e+e2+c)mod 2)::res s s2 l 0
+    in res nA nB [] 0 ;;
 
 (** Difference of two naturals.
     UNSAFE: First entry is assumed to be bigger than second.
     @param nA Natural.
     @param nB Natural.
 *)
-let diff_n nA nB = []
+
+let diff_n nA nB = let rec locale nA nB res c =match (nA,nB) with
+      ([],[]) -> res
+    | ([],e::s) -> invalid_arg "nB doit etre plus grand que nA"
+    | (e::s,[]) -> if e -c >=0 then (e- c)::locale s nB res 0 else (2-c)::locale s nB res 1
+    | (e::s,e2::s2) when e2+c = 2 && e=1 ->if e-(e2+c) >= 0 then (e-(e2+c))::locale s s2 res 0 else (3-(e2+c))::locale s s2 res 1
+    | (e::s,e2::s2) ->if e-(e2+c) >= 0 then (e-(e2+c))::locale s s2 res 0 else (2-(e2+c))::locale s s2 res 1
+                   in locale nA nB [] 0;;
 
 (** Addition of two bitarrays.
     @param bA Bitarray.
     @param bB Bitarray.
- *)
-let add_b bA bB = []
+*)
+
+let yahou bA bB =  match (bA,bB) with
+    ([],_) -> bB
+  | (_,[]) -> bA
+  | (e::s,e2::s2) when e=1 && e2=1 -> 1::add_n s s2
+  | (e::s,e2::s2) when e =1->if ( (>=!)s s2) then 1::diff_n s s2 else 0::diff_n s2 s
+  | (e::s,e2::s2) when e2 =1-> if ( (>=!)s s2) then 0::diff_n s s2 else 1::diff_n s2 s
+  | (e::s,e2::s2) -> 0::add_n s s2 ;;
+
+let  test bA  = let a = match bA with
+    [] ->bA
+  | _::s -> s
+                in let rec test_r a = match a with
+    [] -> true
+  | e::s  when e = 0 -> test_r  s
+  | _ -> false
+                   in test_r a;;
+
+let zero x = let rec zer c x = match x with
+    []->c
+  | e::s when e = 1 -> 1+zer c s
+  | e::s  -> zer c s
+             in let rec zero_rec c x res = match (c,x) with
+                 (0,_) -> res
+               | (_,e::s) when e=1 -> e::zero_rec (c-1) s res
+               | (_,e::s) ->  e::zero_rec (c) s res
+               | _ -> res
+                in  if test (zero_rec (zer 0 x) x  []) then [] else (zero_rec (zer 0 x) x  [])   ;;
+
+let add_b bA bB = if test (yahou bA bB) then [] else zero (yahou bA bB);;
 
 (** Difference of two bitarrays.
     @param bA Bitarray.
     @param bB Bitarray.
 *)
-let diff_b bA bB = []
+
+let diff_b bA bB = match (bA,bB) with
+    (e::s,e2::s2) when e=0 && e2=0 -> add_b bA (1::s2)
+  | (e::s,e2::s2) when e=0 -> add_b bA (0::s2)
+  | (e::s,e2::s2) when e2=0 ->1::add_n s s2
+  | (e::s,e2::s2)  -> add_b bA (0::s2)
+  | ((_::_, [])|([], _)) -> [];;
 
 (** Shifts bitarray to the left by a given natural number.
     @param bA Bitarray.
     @param d Non-negative integer.
 *)
-let rec shift bA d = []
+
+let rec shift bA d = let first bA = match bA with
+    [] -> []
+  | e::s -> s
+                       in let rec shift_rec bA d = match (bA ,d) with
+      ([],_) -> []
+    | (_,0) -> bA
+    | _ -> 0::shift_rec bA (d-1)
+                          in shift_rec (first bA) d;;
 
 (** Multiplication of two bitarrays.
     @param bA Bitarray.
     @param bB Bitarray.
 *)
-let mult_b bA bB = []
+
+let rec yess bA bB = match (bA,bB) with
+    ([],[])-> true
+  | ([],e::s) when e = 0 -> yess bA s
+  | (e::s,[]) when e = 0 -> yess s bB
+  | (e::s,e2::s2) when e = 0 && e2 = 0 -> yess s s2
+  | _ -> false;;
+
+let rec  mult_b bA bB = if sign_b bB=1 then
+    let rec mult bA bB = if yess bB [0] then [0;0] else add_b bA (mult bA (diff_b bB (from_int 1)))
+    in mult bA bB
+  else let rec locale2 bA bB = if yess bB [0] then [0;0] else
+      add_b bA (locale2 bA (diff_b (abs_b bB) (from_int 1)))
+       in let res = locale2 bA bB
+          in match res with
+              e::s when sign_b bA = -1 && sign_b bB = -1 ->0::s
+            | e::s when sign_b bA = -1 ->res
+            | e::s when sign_b bB = -1 ->1::s
+            | _  -> res;;
 
 (** Quotient of two bitarrays.
     @param bA Bitarray you want to divide by second argument.
     @param bB Bitarray you divide by. Non-zero!
 *)
-let quot_b bA bB = []
+
+let horrible bA bB = let rec foo bA c = match bA with
+    [] -> c
+  | _ when (<<)bB bA -> c
+  | _ -> foo(add_b bA bB)(add_b c [1;1])
+                   in foo bA [];;
+
+let mince bA bB = diff_b bA(mult_b bB(horrible(bA)bB));;
+
+let  quot_b bA bB = let rec quo_rec bA c = match bA with
+    [] -> c
+  | _ when (>>) bB bA ->  c
+  | _ -> quo_rec(diff_b bA bB)(add_b c [0;1])
+                    in let negative bA = if sign_b bA =1 then quo_rec bA [] else
+                        if  diff_b bA(mult_b bB (horrible(bA)bB)) = []
+                        then  mult_b(quo_rec(abs_b bA)[])([1;1])
+                        else mult_b(add_b(quo_rec(abs_b bA)[])[0;1])([1;1])
+                       in negative bA ;;
 
 (** Modulo of a bitarray against a positive one.
     @param bA Bitarray the modulo of which you're computing.

@@ -80,18 +80,21 @@ let rec public_data_g p = (find (p-1) (p-2), p);;
 
 (** Generate ElGamal public data.
     @param pub_data a tuple (g, p) of public data for ElGamal cryptosystem.
- *)
-let generate_keys_g (g, p) = let a = (p-2)+1 in let b = Random.int a in ((mod_power g b p),b);;
+*)
+
+let random (a,b) = a + Random.int(b-a);;
+
+let generate_keys_g (g, p) =
+  let r = random(2,(p-1)) in mod_power g r p ,r;;
 
 (** ElGamal encryption process.
     @param msg message to be encrypted.
     @param pub_data a tuple (g, p) of ElGamal public data.
     @param kA ElGamal public key.
- *)
-let encrypt_g msg (g, p) kA = let a = (p-2)+1 in
-                              let b = Random.int a in
-                              let c = mod_power g b p and d = modulo ((mod_power kA b p) + msg) p
-                              in (c,d);;
+*)
+
+let encrypt_g msg (g, p) kA =
+  let s = random(3,(p-1)) in (mod_power g s p, modulo (msg*(mod_power kA s p)) p);;
 
 (** ElGamal decryption process.
     @param msg a tuple (msgA, msgB) forming an encrypted ElGamal message.
@@ -99,4 +102,5 @@ let encrypt_g msg (g, p) kA = let a = (p-2)+1 in
     @param pub_data a tuple (g, p) of public data for ElGamal cryptosystem.
 *)
 
-let decrypt_g (msgA, msgB) a (g, p) = (modulo ((prime_mod_power msgA (p-1-a) p) * msgB) p);;
+let decrypt_g (msgA, msgB) a (g, p) =
+  let u = mod_power msgA a p in modulo (msgB * mod_power u (p-2) p ) p;;
