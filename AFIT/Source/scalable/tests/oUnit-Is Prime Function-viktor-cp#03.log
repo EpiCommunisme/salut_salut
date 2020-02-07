@@ -1,0 +1,11 @@
+2020-01-26T15:50:07+00:00 viktor-cp#03 I: Start test Is Prime Function:2:(0 -> true).
+2020-01-26T15:50:07+00:00 viktor-cp#03 I: Test Is Prime Function:2:(0 -> true) is successful.
+2020-01-26T15:50:07+00:00 viktor-cp#03 I: End test Is Prime Function:2:(0 -> true).
+2020-01-26T15:50:07+00:00 viktor-cp#03 I: Start test Is Prime Function:9:(0 -> false).
+2020-01-26T15:50:07+00:00 viktor-cp#03 E: Test Is Prime Function:9:(0 -> false) has failed.
+2020-01-26T15:50:07+00:00 viktor-cp#03 E: Is Prime Function
+2020-01-26T15:50:07+00:00 viktor-cp#03 E: expected: false but got: true in test Is Prime Function:9:(0 -> false).
+2020-01-26T15:50:07+00:00 viktor-cp#03 E: Raised at file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 8-27
+2020-01-26T15:50:07+00:00 viktor-cp#03 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-01-26T15:50:07+00:00 viktor-cp#03 E: 
+2020-01-26T15:50:07+00:00 viktor-cp#03 I: End test Is Prime Function:9:(0 -> false).

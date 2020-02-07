@@ -1,0 +1,15 @@
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Start test Modular Power Function:0:((-1, 12, 10), 1).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Test Modular Power Function:0:((-1, 12, 10), 1) is successful.
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: End test Modular Power Function:0:((-1, 12, 10), 1).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Start test Modular Power Function:2:((0, 2, 3), 0).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Test Modular Power Function:2:((0, 2, 3), 0) is successful.
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: End test Modular Power Function:2:((0, 2, 3), 0).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Start test Modular Power Function:4:((5, 0, 2), 1).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Test Modular Power Function:4:((5, 0, 2), 1) is successful.
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: End test Modular Power Function:4:((5, 0, 2), 1).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Start test Modular Power Function:6:((-2, 3, 9), 1).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Test Modular Power Function:6:((-2, 3, 9), 1) is successful.
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: End test Modular Power Function:6:((-2, 3, 9), 1).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Start test Modular Power Function:8:((3, 3, 17), 10).
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: Test Modular Power Function:8:((3, 3, 17), 10) is successful.
+2020-02-07T18:37:17+00:00 r04p01.lyn-viv.sm.cri.epita.net#01 I: End test Modular Power Function:8:((3, 3, 17), 10).

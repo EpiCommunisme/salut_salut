@@ -1,0 +1,12 @@
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: Start test Is Pseudo Prime Function:1:(11, [2; 4; 5; 20]) -> true).
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: Test Is Pseudo Prime Function:1:(11, [2; 4; 5; 20]) -> true) is successful.
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: End test Is Pseudo Prime Function:1:(11, [2; 4; 5; 20]) -> true).
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: Start test Is Pseudo Prime Function:3:(29, [30; 41; 52]) -> true).
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: Test Is Pseudo Prime Function:3:(29, [30; 41; 52]) -> true) is successful.
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: End test Is Pseudo Prime Function:3:(29, [30; 41; 52]) -> true).
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: Start test Is Pseudo Prime Function:5:(22, [30; 41; 52]) -> false).
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: Test Is Pseudo Prime Function:5:(22, [30; 41; 52]) -> false) is successful.
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: End test Is Pseudo Prime Function:5:(22, [30; 41; 52]) -> false).
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: Start test Is Pseudo Prime Function:7:(27, [30; 41; 52]) -> false).
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: Test Is Pseudo Prime Function:7:(27, [30; 41; 52]) -> false) is successful.
+2020-02-07T18:37:18+00:00 r04p01.lyn-viv.sm.cri.epita.net#02 I: End test Is Pseudo Prime Function:7:(27, [30; 41; 52]) -> false).

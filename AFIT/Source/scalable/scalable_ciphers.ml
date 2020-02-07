@@ -14,19 +14,25 @@ open Scalable_power
     @param p prime bitarray
     @param q prime bitarray
 *)
-let generate_keys_rsa p q = (([],[]), ([], []))
+let generate_keys_rsa p q = let a = mult_b p  q and fi = mult_b (diff_b p [0;1]) (diff_b q [0;1])
+                            in let rec locale fi =
+                                 let k  = from_int( Random.int (to_int fi)) in
+                                 if gcd_b fi k  = [0;1] then k else locale fi
+                               in let k = locale fi
+                                  in let (g,_,_) = bezout_b k fi
+                                     in ((a,k),(a,g)) ;;
 
 (** Encryption using RSA cryptosystem.
     @param m bitarray hash of message
     @param pub_key a tuple (n, e) composing public key of RSA cryptosystem.
  *)
-let encrypt_rsa m (n, e) = []
+let encrypt_rsa m (n, e) = mod_power m e n;;
 
 (** Decryption using RSA cryptosystem.
     @param m bitarray hash of encrypted message.
     @param pub_key a tuple (n, d) composing private key of RSA cryptosystem.
  *)
-let decrypt_rsa m (n , d) = []
+let decrypt_rsa m (n , d) = mod_power m d n;;
 
 (********** ElGamal Cipher **********)
 
