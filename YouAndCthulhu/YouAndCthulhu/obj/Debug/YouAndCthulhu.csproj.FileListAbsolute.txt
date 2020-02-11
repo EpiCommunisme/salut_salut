@@ -1,0 +1,6 @@
+/home/victor.buthod/Downloads/YouAndCthulhu/YouAndCthulhu/obj/Debug/YouAndCthulhu.csprojAssemblyReference.cache
+/home/victor.buthod/Downloads/YouAndCthulhu/YouAndCthulhu/obj/Debug/YouAndCthulhu.csproj.CoreCompileInputs.cache
+/home/victor.buthod/Downloads/YouAndCthulhu/YouAndCthulhu/bin/Debug/YouAndCthulhu.exe
+/home/victor.buthod/Downloads/YouAndCthulhu/YouAndCthulhu/bin/Debug/YouAndCthulhu.pdb
+/home/victor.buthod/Downloads/YouAndCthulhu/YouAndCthulhu/obj/Debug/YouAndCthulhu.exe
+/home/victor.buthod/Downloads/YouAndCthulhu/YouAndCthulhu/obj/Debug/YouAndCthulhu.pdb
