@@ -1,0 +1,6 @@
+/afs/cri.epita.net/user/v/vi/victor.buthod/u/csharp-tp8-victor.buthod/Lost_in_Wonderland/Lost_in_Wonderland/bin/Debug/Lost_in_Wonderland.exe
+/afs/cri.epita.net/user/v/vi/victor.buthod/u/csharp-tp8-victor.buthod/Lost_in_Wonderland/Lost_in_Wonderland/bin/Debug/Lost_in_Wonderland.pdb
+/afs/cri.epita.net/user/v/vi/victor.buthod/u/csharp-tp8-victor.buthod/Lost_in_Wonderland/Lost_in_Wonderland/obj/Debug/Lost_in_Wonderland.csprojAssemblyReference.cache
+/afs/cri.epita.net/user/v/vi/victor.buthod/u/csharp-tp8-victor.buthod/Lost_in_Wonderland/Lost_in_Wonderland/obj/Debug/Lost_in_Wonderland.csproj.CoreCompileInputs.cache
+/afs/cri.epita.net/user/v/vi/victor.buthod/u/csharp-tp8-victor.buthod/Lost_in_Wonderland/Lost_in_Wonderland/obj/Debug/Lost_in_Wonderland.exe
+/afs/cri.epita.net/user/v/vi/victor.buthod/u/csharp-tp8-victor.buthod/Lost_in_Wonderland/Lost_in_Wonderland/obj/Debug/Lost_in_Wonderland.pdb
