@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Lost_in_Wonderland.589415828.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\leona_u6zzw0q\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\leona_u6zzw0q\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Lost_in_Wonderland.-964004127.00" t="ExcludeRecursive" />
+    <e p="C:\Users\leona_u6zzw0q\salut_salut\Lost_in_Wonderland" t="IncludeFlat">
       <e p="Lost_in_Wonderland" t="IncludeRecursive">
         <e p="Backtracking.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="BinaryMaze.cs" t="Include" />
         <e p="Cell.cs" t="Include" />
         <e p="Lost_in_Wonderland.csproj" t="IncludeRecursive" />
         <e p="Maze.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
         <e p="PrimMaze.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="Lost_in_Wonderland.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
