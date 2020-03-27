@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "RsOnEFEbKljVchnTcIuxFpUYrZIY9M4/D3WzJquIaq3ZMtkQm9C3d443Sl2s8Z6kst6R2CcsPDi8VpMdwn+tig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\belli\\Desktop\\TP Epita\\tp 10\\snake\\snake\\snake.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\belli\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "C:\\Users\\belli\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "C:\\Users\\belli\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "C:\\Users\\belli\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "C:\\Users\\belli\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\belli\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\belli\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

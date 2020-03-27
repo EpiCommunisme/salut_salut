@@ -1,0 +1,24 @@
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\bin\Debug\netcoreapp2.2\snake.deps.json
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\bin\Debug\netcoreapp2.2\snake.runtimeconfig.json
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\bin\Debug\netcoreapp2.2\snake.runtimeconfig.dev.json
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\bin\Debug\netcoreapp2.2\snake.dll
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\bin\Debug\netcoreapp2.2\snake.pdb
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\obj\Debug\netcoreapp2.2\snake.csprojAssemblyReference.cache
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\obj\Debug\netcoreapp2.2\snake.AssemblyInfoInputs.cache
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\obj\Debug\netcoreapp2.2\snake.AssemblyInfo.cs
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\obj\Debug\netcoreapp2.2\snake.dll
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\obj\Debug\netcoreapp2.2\snake.pdb
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\obj\Debug\netcoreapp2.2\snake.csproj.CoreCompileInputs.cache
+C:\Users\belli\Desktop\TP Epita\csharp-tp10-sacha.bellier\snake\snake\obj\Debug\netcoreapp2.2\snake.genruntimeconfig.cache
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\bin\Debug\netcoreapp2.2\snake.deps.json
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\bin\Debug\netcoreapp2.2\snake.runtimeconfig.json
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\bin\Debug\netcoreapp2.2\snake.runtimeconfig.dev.json
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\bin\Debug\netcoreapp2.2\snake.dll
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\bin\Debug\netcoreapp2.2\snake.pdb
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\obj\Debug\netcoreapp2.2\snake.csprojAssemblyReference.cache
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\obj\Debug\netcoreapp2.2\snake.csproj.CoreCompileInputs.cache
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\obj\Debug\netcoreapp2.2\snake.AssemblyInfoInputs.cache
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\obj\Debug\netcoreapp2.2\snake.AssemblyInfo.cs
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\obj\Debug\netcoreapp2.2\snake.dll
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\obj\Debug\netcoreapp2.2\snake.pdb
+C:\Users\belli\Desktop\TP Epita\tp 10\snake\snake\obj\Debug\netcoreapp2.2\snake.genruntimeconfig.cache
