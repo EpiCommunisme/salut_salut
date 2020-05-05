@@ -1,0 +1,15 @@
+# Binaries
+bin
+obj
+
+# Rider
+.idea
+*.userprefs
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+
